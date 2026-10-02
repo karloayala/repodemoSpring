@@ -1,0 +1,13 @@
+### Registrar pedido
+POST https://humble-space-computing-machine-q7pxjppw65xph46jp-8080.app.github.dev/pedido/nuevo
+Content-Type: application/json
+
+{
+ "items":[
+   {
+     "idProducto": 1011,
+     "cantidad": 22,
+     "precioUnitario":3000
+   }
+ ]
+}
